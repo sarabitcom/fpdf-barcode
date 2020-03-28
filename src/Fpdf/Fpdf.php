@@ -1,7 +1,7 @@
 <?php
-namespace Sarabitcom\Fpdf;
+namespace Sarabitcom;
 
-class SarabitcomFpdf
+class Fpdf
 {
 	protected $page;               // current page number
 	protected $n;                  // current object number
