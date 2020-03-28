@@ -71,7 +71,7 @@ class Html2PDF {
         foreach ($str as $_from => $_to)
             $this->html = str_replace($_from, $_to, $this->html);
 
-        $pdf = new PDF('P', 'mm', 'A4', $this->title, $this->articleurl, false);
+        $pdf = new PDF('P', 'mm', 'A4');
         $pdf->SetCreator("https://github.com/sarabitcom/fpdf-barcode");
         $pdf->SetDisplayMode('real');
         $pdf->AddPage();
