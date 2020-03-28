@@ -1,5 +1,5 @@
 <?php
-namespace Sarabitcom;
+namespace Sarabitcom\Fpdf;
 
 class Fpdf
 {
