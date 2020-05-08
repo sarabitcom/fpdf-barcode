@@ -39,11 +39,11 @@ $pdf->Image($imagePath, 0, 0, 210, 297);
 
 # Set Font
 <pre>
-<!-- Normal -->
+// Normal
 $pdf->SetFont('Times', '', 12);
-<!-- Bold -->
+// Bold
 $pdf->SetFont('Times', 'B', 11);
-<!-- Italic -->
+// Italic
 $pdf->SetFont('Times', 'I', 11);
 </pre>
 
