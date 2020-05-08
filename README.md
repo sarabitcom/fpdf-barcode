@@ -52,7 +52,7 @@ $pdf->SetFont('Times', 'I', 11);
 $pdf->Text(68, 164, "Your Text Here");
 </pre>
 
-#Output
+# Output
 <pre>
 $pdf->Output('file.pdf', 'I');
 </pre>
