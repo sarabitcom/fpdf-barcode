@@ -1,6 +1,8 @@
 <?php
 namespace Sarabitcom\Fpdf;
 
+use Exception;
+
 class Fpdf
 {
 	protected $page;               // current page number
